@@ -377,7 +377,6 @@ pulseaudio-bluetooth
 make
 gcc
 gimp
-neofetch
 m4
 autoconf
 automake
