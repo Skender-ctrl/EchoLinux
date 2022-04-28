@@ -1,6 +1,6 @@
 ##-------- Base Packages ---------------------##
 
-#alsa-utils
+alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
@@ -35,8 +35,8 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-#grml-zsh-config
-#grub
+grml-zsh-config
+grub
 hdparm
 intel-ucode
 ipw2100-fw
@@ -112,7 +112,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-#virtualbox-guest-utils-nox
+virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
 wireless_tools
@@ -353,6 +353,8 @@ xfce-polkit
 yay
 
 ##---------------- + ---------------##
+tic-80-git
+ani-cli-git
 discord
 arduino
 neofetch
