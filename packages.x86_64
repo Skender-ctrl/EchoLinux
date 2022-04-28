@@ -1,5 +1,4 @@
-##-------- Base Packages ---------------------##
-
+## Base Packages
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -54,7 +53,7 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
-#livecd-sounds
+livecd-sounds
 lsscsi
 lvm2
 lynx
@@ -62,7 +61,7 @@ man-db
 man-pages
 mc
 mdadm
-#memtest86+
+memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -86,7 +85,7 @@ pcsclite
 ppp
 pptpclient
 pv
-#qemu-guest-agent
+qemu-guest-agent
 refind
 reflector
 reiserfsprogs
@@ -122,7 +121,7 @@ xfsprogs
 xl2tpd
 zsh
 
-##-------- Xorg Packages ---------------------##
+## Xorg Packages
 xorg-server
 xorg-xbacklight
 xorg-fonts-misc
@@ -136,26 +135,24 @@ xorg-xmodmap
 xorg-xwininfo
 xorg-xsetroot
 
-##-------- Touchpad and Mouse ----------------##
+## Touchpad and Mouse 
 xorg-xinput
 xf86-input-libinput
 
-##-------- GPU Drivers (Intel/AMD/VM) --------##
+## GPU Drivers (Intel/AMD/VM) 
 xf86-video-fbdev
 xf86-video-vesa
 xf86-video-intel
 xf86-video-amdgpu
 xf86-video-ati
 
-##-------- GPU Drivers (Nvidia) --------------##
+## GPU Drivers (Nvidia) 
 xf86-video-nouveau
 nvidia
 nvidia-utils
 nvidia-settings
 
-##-------- Programs --------------------------##
-
-## Networking / Internet -----
+## Networking / Internet 
 inetutils
 brave-bin
 networkmanager
@@ -163,17 +160,17 @@ networkmanager-openvpn
 nethogs
 nm-connection-editor
 
-## Bluetooth -----
+## Bluetooth 
 bluez
 bluez-utils
 blueman
 pulseaudio-bluetooth
 
-## Printers -----
+## Printers 
 cups
 gutenprint
 
-## Sound -----
+## Sound 
 alsa-plugins
 alsa-tools
 alsa-utils
@@ -182,7 +179,7 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-equalizer-ladspa
 
-## Files -----
+## Files 
 ranger
 highlight
 trash-cli
@@ -199,10 +196,10 @@ xarchiver
 xdg-user-dirs
 xdg-user-dirs-gtk
 
-## Images -----
+## Images 
 viewnior
 
-## Multimedia -----
+## Multimedia 
 ffmpeg
 ffmpegthumbnailer
 mpc
@@ -211,23 +208,22 @@ mplayer
 ncmpcpp
 tumbler
 
-## Terminals -----
+## Terminals 
 alacritty
 xfce4-terminal
 
-## Docs / Editors -----
+## Docs / Editors 
 atril
-geany
-geany-plugins
+code
 vim
 
-## Fonts -----
+## Fonts 
 noto-fonts
 noto-fonts-emoji
 terminus-font
 ttf-dejavu
 
-## System -----
+## System 
 acpi
 autoconf
 automake
@@ -260,7 +256,7 @@ xdotool
 xmlstarlet
 yad
 
-## Utilities -----
+## Utilities 
 baobab
 dialog
 dunst
@@ -276,42 +272,42 @@ rofi
 maim
 slop
 
-## XFCE tools -----
+## XFCE tools 
 xfce4-power-manager
 xfce4-settings
 xsettingsd
 
-## QT Style -----
+## QT Style 
 kvantum
 qt5ct
 
-##-------- Calamares ----------------##
+## Calamares 
 boost
 calamares
 calamares-config
 
-##-------- Hypervisors --------------##
+## Hypervisors 
 virtualbox-guest-utils
 qemu-guest-agent
 open-vm-tools
 xf86-input-vmmouse
 xf86-video-vmware
 
-##-------- Grub ---------------------##
+## Grub 
 os-prober
 lsb-release
 echolinux/grub
 echolinux-grub-theme
 
-##-------- Plymouth -----------------##
+## Plymouth 
 plymouth
 echolinux-plymouth-theme
 
-##-------- Display Manager ----------##
+## Display Manager 
 sddm
 echolinux-sddm-theme-default
 
-##-------- EchoLinux Packages -------##
+## EchoLinux Packages 
 echolinux-cursors
 echolinux-icons
 echolinux-themes
@@ -332,12 +328,11 @@ echolinux-welcome
 echolinux-hooks
 echolinux-installer
 echolinux-install-scripts
-
 echolinux-mirrorlist
 chaotic-mirrorlist
 chaotic-keyring
 
-##-------- AUR Packages -------------##
+## AUR Packages 
 betterlockscreen
 downgrade
 i3lock-color
@@ -352,7 +347,7 @@ timeshift
 xfce-polkit
 yay
 
-##---------------- + ---------------##
+## Applications
 tic-80-git
 ani-cli-git
 discord
@@ -363,7 +358,6 @@ atril
 mpv-git
 ranger
 plymouth-git
-code
 zoom
 zip
 unzip
