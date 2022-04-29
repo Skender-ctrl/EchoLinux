@@ -76,6 +76,14 @@ pacman-key --init
 pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
 pacman-key --lsign-key FBA220DFC880C036
 
+pacman-key --init
+pacman-key --recv-key 19a2282afca8a81e --keyserver keyserver.ubuntu.com
+pacman-key --lsign-key 19a2282afca8a81e
+
+pacman-key --init
+pacman-key --recv-key fba220dfc880c036 --keyserver keyserver.ubuntu.com
+pacman-key --lsign-key fba220dfc880c036
+
 ## -------------------------------------------------------------- ##
 
 ## Set zsh as default shell for new user
