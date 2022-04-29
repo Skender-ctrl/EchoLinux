@@ -33,9 +33,9 @@ sed -i -e '/#\[testing\]/Q' /etc/pacman.conf
 
 ## Append echolinux repository to pacman.conf
 cat >> "/etc/pacman.conf" <<- EOL
-	[echolinux]
-	SigLevel = Optional TrustAll
-	Include = /etc/pacman.d/echolinux-mirrorlist
+	#[echolinux]
+	#SigLevel = Optional TrustAll
+	#Include = /etc/pacman.d/echolinux-mirrorlist
 
 	#[testing]
 	#Include = /etc/pacman.d/mirrorlist
