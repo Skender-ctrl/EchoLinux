@@ -25,7 +25,4 @@ Preinstalled Programs :
 AUR Helper : yay
 
 # Installation 
-In Arch Linux terminal : 
-```
-sudo ./mkecholinuxiso -v .
-```
+ 
