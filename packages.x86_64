@@ -135,6 +135,13 @@ xorg-xmodmap
 xorg-xwininfo
 xorg-xsetroot
 
+##Arch Linux GUI XFCE	##
+#xfce4	
+#xfce4-goodies	
+#xf86-video-intel	
+#mugshot	
+alg-xfce-settings
+
 ## Touchpad and Mouse ##
 xorg-xinput
 xf86-input-libinput
@@ -287,8 +294,8 @@ xf86-video-vmware
 ## Grub ## 
 os-prober
 lsb-release
-echolinux/grub
-echolinux-grub-theme
+#echolinux/grub
+#echolinux-grub-theme
 
 ## Plymouth ## 
 plymouth
@@ -297,31 +304,6 @@ echolinux-plymouth-theme
 ## Display Manager ## 
 sddm
 echolinux-sddm-theme-default
-
-## EchoLinux Packages ## 
-echolinux-cursors
-echolinux-icons
-echolinux-themes
-echolinux-wallpapers
-echolinux-fonts
-echolinux-skeleton
-echolinux-bspwm
-echolinux-openbox
-echolinux-music
-echolinux-vim
-echolinux-omz
-echolinux-scripts
-echolinux-pixmaps
-echolinux-artworks
-echolinux-about
-echolinux-help
-echolinux-welcome
-echolinux-hooks
-echolinux-installer
-echolinux-install-scripts
-echolinux-mirrorlist
-chaotic-mirrorlist
-chaotic-keyring
 
 ## AUR Packages ## 
 betterlockscreen
@@ -349,11 +331,13 @@ zsh-syntax-highlighting
 zsh-autosuggestions
 bash-completion
 awesome-terminal-fonts
+gnome-console
 
 ## Code/Text Editors ##
 arduino
 code
 android-studio
+pycharm
 gnome-text-editor
 
 ## Sound ##
@@ -366,10 +350,11 @@ pulseaudio-equalizer-ladspa
 viewnior
 
 ## Softwares ##
+firefox
 viewnior
-dolphin-emu-git
+dolphin-emu
 tic-80-git
-ani-cli-git
+#ani-cli-git
 discord
 mpv-git
 plymouth-git
@@ -380,9 +365,14 @@ unrar
 qemu
 steam
 gimp
-m4
-
-celluloid
-gnome-text-editor
-gnome-console
 spotify
+celluloid
+
+## Games ##
+dolphin-emu-git
+#tic-80-git
+steam
+ltris
+kapman
+chromium-bsu
+pychess
