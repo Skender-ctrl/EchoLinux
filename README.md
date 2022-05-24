@@ -1,4 +1,4 @@
-!Still in developpement!
+Still in developpement
 # Echo Linux
 Echo Linux : linux distribution based on Arch Linux
 
